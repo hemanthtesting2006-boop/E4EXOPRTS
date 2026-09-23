@@ -1,0 +1,6 @@
+{
+  "name": "E4 Exports | International Merchant Export House",
+  "description": "E4 Exports connects international buyers with verified, export-ready products sourced from India, with quality control, documentation and logistics managed from origin to destination.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
