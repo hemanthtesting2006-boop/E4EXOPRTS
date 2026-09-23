@@ -138,10 +138,9 @@ export const SpecialtyCoffeePage: React.FC = () => {
               <thead>
                 <tr className="bg-[#0B192C] text-[#FAF8F5] text-xs uppercase tracking-wider font-semibold">
                   <th scope="col" className="py-4 px-6 w-16">Rank</th>
-                  <th scope="col" className="py-4 px-6 w-48">Grade</th>
-                  <th scope="col" className="py-4 px-6 w-52">Process</th>
+                  <th scope="col" className="py-4 px-6 w-52">Grade</th>
+                  <th scope="col" className="py-4 px-6 w-56">Process</th>
                   <th scope="col" className="py-4 px-6">Description</th>
-                  <th scope="col" className="py-4 px-6 w-32 text-center">Score /10*</th>
                   <th scope="col" className="py-4 px-6 w-36 text-right">Action</th>
                 </tr>
               </thead>
@@ -162,12 +161,6 @@ export const SpecialtyCoffeePage: React.FC = () => {
                     </td>
                     <td className="py-5 px-6 text-[#4A5260] leading-relaxed max-w-md">
                       {row.description}
-                    </td>
-                    <td className="py-5 px-6 text-center">
-                      <span className="font-serif text-lg font-semibold text-[#0B192C]">
-                        {row.score}
-                      </span>
-                      <span className="text-xs text-[#8A94A6]">/10</span>
                     </td>
                     <td className="py-5 px-6 text-right">
                       <button
@@ -199,11 +192,6 @@ export const SpecialtyCoffeePage: React.FC = () => {
                       {row.grade}
                     </span>
                   </div>
-                  <div className="text-right">
-                    <div className="font-serif text-lg font-bold text-[#0B192C]">
-                      {row.score}<span className="text-xs font-normal text-[#8A94A6]">/10</span>
-                    </div>
-                  </div>
                 </div>
 
                 <div>
@@ -228,20 +216,17 @@ export const SpecialtyCoffeePage: React.FC = () => {
             ))}
           </div>
 
-          {/* Mandatory Disclaimers & Grading Framework Clarification */}
+          {/* Sourcing & Grading Clarification */}
           <div className="mt-8 p-6 bg-white border border-[#E7E5E0] max-w-4xl space-y-3">
             <p className="text-sm text-[#4A5260] leading-relaxed font-medium">
-              This ranking reflects trade convention (processing method and screen size). Actual
+              This ranking reflects origin trade convention (processing method and screen size). Actual
               pricing for specialty buyers is driven by cup score — available on a per-lot basis
               on request.
             </p>
             <div className="pt-3 border-t border-[#E7E5E0] text-xs text-[#707886] flex items-start gap-2">
-              <span className="text-[#8A6D44] font-bold uppercase tracking-wider">*Note:</span>
+              <span className="text-[#8A6D44] font-bold uppercase tracking-wider">Note:</span>
               <span>
-                Scores shown reflect the internal grading and size-ranking framework supplied by
-                E4 Exports based on regional processing method and screen size convention. It is
-                not an independently certified universal industry score. Formal SCA cupping notes
-                and moisture analyses are provided with physical lot samples upon request.
+                Formal SCA cupping scores, moisture analyses, and screen retention distributions are verified per lot and provided directly with physical evaluation samples upon request.
               </span>
             </div>
           </div>

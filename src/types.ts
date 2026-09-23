@@ -15,7 +15,7 @@ export interface CoffeeGrade {
   grade: string;
   process: string;
   description: string;
-  score: number;
+  score?: number;
 }
 
 export interface ProductCategory {

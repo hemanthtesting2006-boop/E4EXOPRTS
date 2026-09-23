@@ -210,7 +210,6 @@ export const COFFEE_GRADES: CoffeeGrade[] = [
     process: 'Washed · Peaberry',
     description:
       'Rare single round bean + washed processing. The cleanest, most concentrated cup — the grade specialty buyers ask for first.',
-    score: 10,
   },
   {
     rank: 2,
@@ -218,7 +217,6 @@ export const COFFEE_GRADES: CoffeeGrade[] = [
     process: 'Washed · Screen 17–18',
     description:
       'Largest, densest flat beans, fully washed. Even roast, clean cup — the reference top-size grade.',
-    score: 9,
   },
   {
     rank: 3,
@@ -226,7 +224,6 @@ export const COFFEE_GRADES: CoffeeGrade[] = [
     process: 'Natural · Peaberry',
     description:
       'Same rare peaberry shape, naturally dried. Fuller body and fruit, sometimes priced level with Parchment AA by micro-lot buyers.',
-    score: 8,
   },
   {
     rank: 4,
@@ -234,7 +231,6 @@ export const COFFEE_GRADES: CoffeeGrade[] = [
     process: 'Washed · Screen 16',
     description:
       'A step down in size from AA, still washed and dense. Dependable, high-quality blend-builder.',
-    score: 7.5,
   },
   {
     rank: 5,
@@ -242,7 +238,6 @@ export const COFFEE_GRADES: CoffeeGrade[] = [
     process: 'Natural · Screen 15–16',
     description:
       'Mid-size, naturally processed. Fuller-bodied, less uniform cup-to-cup, valued for character.',
-    score: 6,
   },
   {
     rank: 6,
@@ -250,7 +245,6 @@ export const COFFEE_GRADES: CoffeeGrade[] = [
     process: 'Washed · Screen 14',
     description:
       'Smaller, lower-density washed bean. The reliable commercial entry point on price.',
-    score: 5.5,
   },
 ];
 
